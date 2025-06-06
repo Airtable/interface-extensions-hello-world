@@ -1,6 +1,6 @@
 {
     "name": "@airtable/hello-world-interface-extension",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "scripts": {
         "lint": "eslint frontend"
     },
