@@ -1,6 +1,6 @@
 {
     "name": "@airtable/hello-world-interface-extension",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "scripts": {
         "lint": "eslint frontend"
     },
@@ -10,11 +10,18 @@
         "react-dom": "^19.1.0"
     },
     "devDependencies": {
+        "@airtable/blocks-webpack-bundler": "^1.1.0",
         "@eslint/js": "^9.26.0",
+        "autoprefixer": "^10.4.20",
+        "css-loader": "^6.11.0",
         "eslint": "^9.26.0",
         "eslint-plugin-react": "^7.37.5",
         "eslint-plugin-react-hooks": "^5.2.0",
-        "globals": "^16.0.0"
+        "globals": "^16.0.0",
+        "postcss": "^8.4.49",
+        "postcss-loader": "^8.1.1",
+        "style-loader": "^3.3.4",
+        "tailwindcss": "^3.4.17"
     },
     "license": "MIT"
 }
